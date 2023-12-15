@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: rgba(117, 50, 217, 0.979);
+      flex-direction: column;
+    }
+
+    h1 {
+      font-size: 36px;
+      color: white;
+      margin: 20px 0;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .photo-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 90%; /* Ajuste conforme necessário */
+    }
+
+    .photo {
+      width: 45%;
+      height: 80vh; /* Ajuste conforme necessário */
+      background-size: cover;
+      background-position: center;
+      margin: 5px;
+      border-radius: 10px;
+    }
+
+    /* Adicione as imagens de fundo */
+    .photo:nth-child(1) { background-image: url('imagem1.jpeg'); }
+    .photo:nth-child(2) { background-image: url('imagem2.jpeg'); }
+    .photo:nth-child(3) { background-image: url('imagem3.jpeg'); }
+    .photo:nth-child(4) { background-image: url('imagem4.jpeg'); }
+    .photo:nth-child(5) { background-image: url('imagem5.jpeg'); }
+    .photo:nth-child(6) { background-image: url('imagem6.jpeg'); }
+    .photo:nth-child(7) { background-image: url('imagem7.jpeg'); }
+    .photo:nth-child(8) { background-image: url('imagem8.jpeg'); }
+  </style>
+  <title>Galeria de Fotos</title>
+</head>
+<body>
+  <h1>EU TE AMO MUITÃO</h1>
+  <div class="photo-container">
+    <div class="photo"></div>
+    <div class="photo"></div>
+    <div class="photo"></div>
+    <div class="photo"></div>
+    <div class="photo"></div>
+    <div class="photo"></div>
+    <div class="photo"></div>
+    <div class="photo"></div>
+  </div>
+</body>
+</html>
