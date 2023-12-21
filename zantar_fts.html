@@ -16,10 +16,11 @@
     }
 
     h1 {
-      font-size: 36px;
+      font-size: 200%;
       color: white;
       margin: 20px 0;
-      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
     }
 
     .photo-container {
@@ -31,14 +32,16 @@
 
     .photo {
       width: 45%;
-      height: 80vh; /* Ajuste conforme necessário */
+      max-width: 400px; 
+      height: 40vh;
       background-size: cover;
       background-position: center;
       margin: 5px;
       border-radius: 10px;
+      object-fit: contain; 
     }
 
-    /* Adicione as imagens de fundo */
+    
     .photo:nth-child(1) { background-image: url('imagem1.jpeg'); }
     .photo:nth-child(2) { background-image: url('imagem2.jpeg'); }
     .photo:nth-child(3) { background-image: url('imagem3.jpeg'); }
